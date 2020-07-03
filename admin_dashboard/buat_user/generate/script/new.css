@@ -1,0 +1,146 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: arial;
+}
+
+#login {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url("../banner1.jfif");
+  background-size: cover;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment:fixed;
+  
+}
+
+.center1 {
+  width: 380px;
+  height: 640px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-left: 90px;
+  background-color: #000000;
+  box-shadow: 2px 2px 16px 0px #ffffff;
+  padding: 40px;
+  opacity:0.8;
+  
+}
+
+.center2 {
+  width: 300px;
+  height: 340px;
+  margin: 0 auto;
+  margin-top: -675px;
+  margin-left: 620px;
+  background-color: #000000;
+  box-shadow: 2px 2px 16px 0px #ffffff;
+  padding: 40px;
+  opacity:1.0;
+  
+}
+
+.qr {
+  padding: 20px;
+  width: 200px;
+  height: auto;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+
+.header {
+  font-size: 30px;
+  text-align: center;
+  color: #ffffff;
+  padding-bottom: 20px;
+}
+
+.fl {
+  width: 100%;
+}
+
+.itpw {
+  width: 92%;
+  padding: 5px 10px;
+  margin: 5px 0px;
+  background-color: #000000;
+  color: #ffffff;
+  transition: all 0.7s;
+  opacity:1.0;
+  filter:alpha(opacity=100);
+}
+
+.its {
+  width: 99.7%;
+  font-size: 19px;
+  color: #f5f5f5;
+  padding: 12px;
+  margin: 5px 0;
+  background-color: #004d40;
+  border: none;
+  transition: all 0.4s;
+}
+
+.itpw:focus {
+  border-bottom: 3px solid #004d40;
+  color: #ffffff
+}
+
+.its:hover , .its:focus {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.center p {
+  margin: 20px 0;
+  text-align: center;
+  font-size: 14px;
+}
+
+.center p a {
+  color: #757575;
+}
+
+@media screen and (min-width:1500px) {
+
+  .center {
+    width: 350px;
+  }
+
+}
+
+@media screen and (max-width:900px) {
+  #login {
+    background-size: 100% 100%;
+  }
+
+  .its {
+    width: 100%;
+  }
+
+  .itpw {
+    font-size: 14px;
+    width: 90%;
+    padding: 13px 3%;
+  }
+
+  .center {
+    width: 230px;
+  }
+
+  .center p {
+    font-size: 12px;
+  }
+
+}
+
+@media screen and (max-width:350px) {
+  .center {
+    padding: 20px;
+    width: 75%;
+  }
+
+  
+}

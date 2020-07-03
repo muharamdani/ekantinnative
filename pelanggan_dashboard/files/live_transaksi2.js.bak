@@ -1,0 +1,8 @@
+$(document).ready(function()
+{
+    $('#search').hide();
+    $('#keywords').on('keyup',function()
+    {
+        $('#tabel').load('search_transaksi2.php?keywords='+$('#keywords').val());
+    });
+});

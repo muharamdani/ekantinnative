@@ -1,0 +1,16 @@
+<?php
+    session_start();
+    /*if(!empty($_SESSION['username1']))
+    {
+        unset($_SESSION['login1']);
+        unset($_SESSION['username1']);
+    }
+    if(!empty($_SESSION['username2']))
+    {
+        unset($_SESSION['login2']);
+        unset($_SESSION['username1']);
+    }
+    */
+    session_destroy();
+    header("location:../home");
+?>
